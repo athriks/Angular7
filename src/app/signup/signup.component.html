@@ -1,0 +1,33 @@
+<div class="container">
+<div class="row">
+
+
+ <h2>SignUp</h2>
+<form class="col-sm-1 col-sm-9 col-sm-2  ">
+
+<div class="form-group" >
+  <label for="usr">UserName:</label>
+  <input type="text" class="form-control" id="usr" name="UserName" [(ngModel)]="UserName">
+
+  <label for="email">Email:</label>
+  <input type="email" class="form-control" id="email" name="email" [(ngModel)]="email">
+
+  <label for="pwd">Password:</label>
+  <input type="password" class="form-control" id="pwd" name="password" [(ngModel)]="password">
+
+  <label for="pwd">Role:</label>
+  <input type="password" class="form-control" id="rol" name="role" [(ngModel)]="role">
+<br>
+<div  class="example-button-row">
+    <button mat-raised-button color="primary">Cancel</button>
+    <button class="b" mat-raised-button color="primary" (click)="register()"> Confirm</button>
+  </div>
+  <br>
+  <a [routerLink]="['/login']">Back To Login</a>
+
+</div>
+</form>
+</div>
+</div>
+
+

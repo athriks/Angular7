@@ -1,0 +1,44 @@
+form {
+    margin-left: 30%;
+}
+h2{
+    margin-top: 10%;
+}
+input{
+    width: 350px;
+}
+.btn-primary{
+    margin-top: 15px;
+}
+.mleft{
+    margin-left: 190px;
+}
+a{
+  margin-left: 18%;
+}
+ h2{
+  margin-left: 45%;
+ }
+ input{
+
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 2px solid#ecefed;
+  border-radius: 4px;
+}
+.body {
+  background-color: #f9f5f2;
+
+ }
+ .example-button-row button{
+
+   margin-right: 200px;
+ }
+ .b{
+  margin-top: 10px;
+ }
+ .row{
+  margin-right: -6px;
+  margin-left: -100px;
+}
